@@ -98,4 +98,3 @@ This work introduces GUIAlignFusion, a progressive fine-tuning strategy for GUI 
 Evaluations on our self-constructed dataset demonstrate superior performance over strong baselines, with visualizations validating the efficacy of the tuning and fusion mechanisms.
 
 
-*This project is based on research conducted at Dalian University, School of Software Engineering.*
