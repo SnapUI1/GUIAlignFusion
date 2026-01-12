@@ -1,4 +1,4 @@
-# GUIAlignFusion: Progressive Gated Alignment-Fusion Network for GUI Retrieval
+# GUICAN: ADeepGUICross-Modal Alignment Network for Multimodal Retrieval Based on CLIP
 ![Alt text](https://github.com/SnapUI1/GUIAlignFusion/blob/main/overall.png)
 
 *Figure 1: Overview of our approach: including the creation of the datasets, vision-language model training, and development of the GUI search engine.*
