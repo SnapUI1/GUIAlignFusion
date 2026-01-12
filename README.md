@@ -76,20 +76,19 @@ We conducted a systematic evaluation comparing our cross-modal GUI retrieval sys
 *Figure 6: Top-5 Visual Examples Demonstrating Retrieval on (a) relevance; (b) diversity.*
 
 Our method consistently outperforms all baselines across all metrics:
-![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/T1.png)
+![Alt text](https://github.com/SnapUI1/GUIAlignFusion/blob/main/table1.png)
 
-![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/T2.png)
 ### Ablation Study
 We conducted a systematic ablation study on the three core modules of our MFEDFR-Combiner:
 
-![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/T3.png)
+![Alt text](https://github.com/SnapUI1/GUIAlignFusion/blob/main/table2.png)
 ### User Evaluation
 Blind assessments from six independent groups showed our method significantly outperformed all baseline models across three metrics:
 - Relevance: 3.77 (37% improvement)
 - Diversity: 4.10 (29% improvement)
 - Usefulness: 3.55 (22% improvement)
 
-![Alt text](https://github.com/fangyanjia1999/-GUIAlignFusion/blob/main/Display/T4.png)
+![Alt text](https://github.com/SnapUI1/GUIAlignFusion/blob/main/table3.png)
 Mann-Whitney U tests confirm statistically significant improvements across all metrics.
 
 ## Conclusion
