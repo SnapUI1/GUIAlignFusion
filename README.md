@@ -1,5 +1,5 @@
 # GUICAN: ADeepGUICross-Modal Alignment Network for Multimodal Retrieval Based on CLIP
-![Alt text](https://github.com/SnapUI1/GUIAlignFusion/blob/main/overall.png)
+![Alt text](https://github.com/SnapUI1/GUIAlignFusion/blob/main/overall.jpg)
 
 *Figure 1: Overview of our approach: including the creation of the datasets, vision-language model training, and development of the GUI search engine.*
 
@@ -15,16 +15,16 @@ Comprehensive automated and human evaluations demonstrate that our method signif
 Our approach consists of two main stages:
 
 ### Stage 1: Feature Alignment Enhancement
-![Alt text](https://github.com/SnapUI1/GUIAlignFusion/blob/main/stage.png)
+![Alt text](https://github.com/SnapUI1/GUIAlignFusion/blob/main/stage.jpg)
 *Figure 2: In the first stage of training, we perform task-oriented fine-tuning of CLIP encoders to reduce the mismatch between large-scale pretraining and the downstream task.*
 
 We freeze the CLIP encoders and only train the novel Attention Guided Gated Fusion (AGGF) module. After 30% of the training, we progressively unfreeze the vision encoder layers in an architecture-aware order to adapt the unified embedding space for downstream GUI retrieval.
 
 ### Stage 2: Feature Fusion Generation
-![Alt text](https://github.com/SnapUI1/GUIAlignFusion/blob/main/stage2.png)
+![Alt text](https://github.com/SnapUI1/GUIAlignFusion/blob/main/stage2.jpg)
 *Figure 3: In the second stage of training, we train from scratch a MEDR-Combiner network that learns to fuse the multimodal features extracted with CLIP encoders.*
 
-![Alt text](https://github.com/SnapUI1/GUIAlignFusion/blob/main/model.png)
+![Alt text](https://github.com/SnapUI1/GUIAlignFusion/blob/main/model.jpg)
 *Figure 4: MEDR-Combiner is the key in the second stage. The left-hand structure is designed in the original Combiner, by incorporating multiscale and dynamic fusion modules, it is upgraded to the enhanced version shown on the right..*
 
 ## Dataset Construction
